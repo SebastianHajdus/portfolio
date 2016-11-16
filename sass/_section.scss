@@ -1,19 +1,29 @@
-#diamond {
-  align-self: flex-end;
-  background-image: url("../images/flawless_diamond.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 30%;
-  width: 100%;
+/* --- header --- */
+
+#header {
+  background: white;
+
+}
+
+/* --- about_skills --- */
+
+#about_skills {
+  background: white;
+
 }
 
 
-#diamond_text {
-  align-self: flex-start;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  height: 50%;
+/* --- interests --- */
+
+#interests {
+  background: white;
+
+
+}
+
+/* --- contact --- */
+
+#contact {
+  background: white;
 
 }

@@ -1,6 +1,55 @@
-@media (max-width: 600px) {
+$iPhone: "(max-width: 479px)";
+$phone: "(min-width: 480px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+
+
+@media #{$iPhone} {
   [class*='col-']{
-    float:none;
+    display: flex;
     width:100%;
   }
+  #header {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #about_skills {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #contact {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+}
+
+
+@media #{$phone} {
+  [class*='col-']{
+    display: flex;
+    width:100%;
+  }
+  #header {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #about_skills {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #contact {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+
+@media #{$tablet} {
+
+}
+
+
+@media #{$desktop} {
+
 }
