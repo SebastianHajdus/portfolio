@@ -21,7 +21,10 @@ $desktop: "(min-width: 1024px)";
     flex-direction: column-reverse;
     justify-content: center;
   }
-
+  #nav .container {
+    flex-direction: column;
+    align-items:flex-end;
+  }
 }
 
 
@@ -41,6 +44,10 @@ $desktop: "(min-width: 1024px)";
   #contact {
     flex-direction: column-reverse;
     justify-content: center;
+  }
+  #nav .container {
+    flex-direction: column;
+    align-items:flex-end;
   }
 }
 

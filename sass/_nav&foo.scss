@@ -2,11 +2,12 @@
 
 #nav {
   background: black;
+  height: 100%;
 
 }
 
 #menu_logo {
-  //background-image: url("../images/diamond.png");
+  background-image: url("../images/diamond.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,15 +15,19 @@
   height: 50px;
   width: 50px;
   //border: 1px solid white;
+
 }
 
 #menu {
   color: white;
   list-style: none;
-  background-color: red;
   height: 100%;
-  width: 50px;
+  text-decoration: none;
+  display: none;
+
+
 }
+
 
 /* --- foo --- */
 
