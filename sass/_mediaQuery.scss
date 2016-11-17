@@ -31,6 +31,9 @@ $desktop: "(min-width: 1024px)";
   }
   #interests{
 
+    #slideshow {
+      display: none;
+    }
   }
   #contact {
     flex-direction: column-reverse;
@@ -67,7 +70,10 @@ $desktop: "(min-width: 1024px)";
   }
   #interests{
     .size {
-      //height: 350px;
+    }
+
+    #slideshow {
+      display: none;
     }
   }
   #contact {
@@ -95,10 +101,17 @@ $desktop: "(min-width: 1024px)";
       height: 400px;
     }
   }
-  #interests{
+  #interests {
+    justify-content: center;
     .size {
       height: 600px;
     }
+
+    #slides {
+      height: 500px;
+      width: 750px;
+    }
+
   }
   #contact {
     .size {
@@ -124,8 +137,14 @@ $desktop: "(min-width: 1024px)";
     }
   }
   #interests {
+    justify-content: center;
     .size {
       height: 800px;
+    }
+
+    #slides {
+      height: 700px;
+      width: 950px;
     }
   }
   #contact {

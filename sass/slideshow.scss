@@ -1,0 +1,109 @@
+/*
+essential styles:
+these make the slideshow work
+*/
+
+#slides {
+    position: relative;
+    //height: 500px;
+    //width: 80%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide {
+    font-size: 40px;
+    padding: 1px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+
+}
+
+.slide:nth-of-type(1) {
+    background: red;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snowy-winter-vignette-bokeh-night-snow-falling-free-stock-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide:nth-of-type(2) {
+    background: orange;
+}
+.slide:nth-of-type(3) {
+    background: green;
+}
+.slide:nth-of-type(4) {
+    background: blue;
+}
+
+
+#slideshow {
+    align-self: center;
+    display: block;
+    position: relative;
+}
+
+
+
+.controls{
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 10px 0px 0px 10px;
+  width: 70px;
+}
+
+.controls:hover, .controls:focus{
+  background: #eee;
+  color: #333;
+}
+
+
+
+
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
+
+
+// test
+
+.controls {
+    display: none;
+}
