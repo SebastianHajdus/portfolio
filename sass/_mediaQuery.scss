@@ -3,6 +3,11 @@ $phone: "(min-width: 480px) and (max-width: 767px)";
 $tablet: "(min-width: 768px) and (max-width: 1023px)";
 $desktop: "(min-width: 1024px)";
 
+@mixin ice {
+
+}
+
+
 
 @media #{$iPhone} {
   [class*='col-']{
@@ -12,14 +17,27 @@ $desktop: "(min-width: 1024px)";
   #header {
     flex-direction: column-reverse;
     justify-content: center;
+    flex-wrap: wrap;
+    .size {
+      height: 300px;
+    }
   }
   #about_skills {
     flex-direction: column-reverse;
     justify-content: center;
+    .size {
+      height: 300px;
+    }
+  }
+  #interests{
+
   }
   #contact {
     flex-direction: column-reverse;
     justify-content: center;
+    .size {
+      height: 300px;
+    }
   }
   #nav .container {
     flex-direction: column;
@@ -36,14 +54,28 @@ $desktop: "(min-width: 1024px)";
   #header {
     flex-direction: column-reverse;
     justify-content: center;
+    .size {
+      height: 350px;
+    }
   }
   #about_skills {
     flex-direction: column-reverse;
     justify-content: center;
+    .size {
+      height: 350px;
+    }
+  }
+  #interests{
+    .size {
+      //height: 350px;
+    }
   }
   #contact {
     flex-direction: column-reverse;
     justify-content: center;
+    .size {
+      height: 350px;
+    }
   }
   #nav .container {
     flex-direction: column;
@@ -53,10 +85,56 @@ $desktop: "(min-width: 1024px)";
 
 
 @media #{$tablet} {
-
+  #header {
+    .size {
+      height: 400px;
+    }
+  }
+  #about_skills {
+    .size {
+      height: 400px;
+    }
+  }
+  #interests{
+    .size {
+      height: 600px;
+    }
+  }
+  #contact {
+    .size {
+      height: 400px;
+    }
+  }
+  #nav .container {
+    flex-direction: column;
+    align-items:center;
+  }
 }
 
 
 @media #{$desktop} {
-
+  #header {
+    .size {
+      height: 800px;
+    }
+  }
+  #about_skills {
+    .size {
+      height: 800px;
+    }
+  }
+  #interests {
+    .size {
+      height: 800px;
+    }
+  }
+  #contact {
+    .size {
+      height: 800px;
+    }
+  }
+  #nav .container {
+    flex-direction: column;
+    align-items:center;
+  }
 }
