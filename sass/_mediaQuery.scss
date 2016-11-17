@@ -28,6 +28,12 @@ $desktop: "(min-width: 1024px)";
     .size {
       height: 300px;
     }
+    .skills {
+      height: 50px;
+      width: 50px;
+      border: 1px solid blue;
+      margin: 2px;
+    }
   }
   #interests{
 
@@ -67,6 +73,12 @@ $desktop: "(min-width: 1024px)";
     .size {
       height: 350px;
     }
+    .skills {
+      height: 80px;
+      width: 80px;
+      border: 1px solid blue;
+      margin: 3px;
+    }
   }
   #interests{
     .size {
@@ -99,6 +111,12 @@ $desktop: "(min-width: 1024px)";
   #about_skills {
     .size {
       height: 400px;
+    }
+    .skills {
+      height: 100px;
+      width: 100px;
+      border: 1px solid blue;
+      margin: 4px;
     }
   }
   #interests {
@@ -134,6 +152,12 @@ $desktop: "(min-width: 1024px)";
   #about_skills {
     .size {
       height: 800px;
+    }
+    .skills {
+      height: 120px;
+      width: 120px;
+      border: 1px solid blue;
+      margin: 5px;
     }
   }
   #interests {

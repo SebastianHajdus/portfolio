@@ -1,7 +1,7 @@
 /* --- header --- */
 
 #header {
-  background: white;
+  background: black;
   //background-image: url("../images/blackstone.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,6 +22,70 @@
      radial-gradient(at 50% 87%, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
   background-blend-mode: multiply,normal;
 
+}
+
+// --- skills --- //
+
+
+
+#about_skills {
+  .s-1 {
+      background-image: url("../images/skills/HTML.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-2 {
+      background-image: url("../images/skills/css.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-3 {
+      background-image: url("../images/skills/js.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-4 {
+      background-image: url("../images/skills/jQuery.gif");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-5 {
+      background-image: url("../images/skills/git.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-6 {
+      background-image: url("../images/skills/sass.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-7 {
+      background-image: url("../images/skills/php.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-8 {
+      background-image: url("../images/skills/ps.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .s-9 {
+      background-image: url("../images/skills/wp.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+  .container {
+    align-items: center;
+  }
 }
 
 
