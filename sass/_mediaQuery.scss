@@ -26,19 +26,23 @@ $desktop: "(min-width: 1024px)";
     flex-direction: column-reverse;
     justify-content: center;
     .size {
-      height: 300px;
+      //height: 300px;
     }
     .skills div {
       height: 50px;
       width: 50px;
-      border: 1px solid blue;
       margin: 2px;
     }
+    #profile_about {
+      height:150px;
+      width: 150px;
+    }
+
   }
 
   #interests{
     display: none;
-    
+
   }
 
   #for_efect{
@@ -81,8 +85,11 @@ $desktop: "(min-width: 1024px)";
     .skills div{
       height: 80px;
       width: 80px;
-      border: 1px solid blue;
       margin: 3px;
+    }
+    #profile_about {
+      height:350px;
+      width: 350px;
     }
   }
   #interests{
@@ -116,25 +123,28 @@ $desktop: "(min-width: 1024px)";
     }
   }
   #about_skills {
+    #profile_about {
+      height: 500px;
+      width: 500px;
+    }
     .size {
       height: 400px;
     }
     .skills div{
       height: 100px;
       width: 100px;
-      border: 1px solid blue;
       margin: 4px;
     }
   }
   #interests {
     justify-content: center;
     .size {
-      height: 600px;
+      //height: 600px;
     }
 
     #slides {
-      height: 500px;
-      width: 750px;
+      //height: 500px;
+      //width: 750px;
     }
 
   }
@@ -167,26 +177,31 @@ $desktop: "(min-width: 1024px)";
   }
 
   #about_skills {
+    #profile_about {
+      height: 600px;
+      width: 600px;
+    }
     .size {
       height: 800px;
     }
     .skills div{
       height: 120px;
       width: 120px;
-      border: 1px solid blue;
       margin: 5px;
     }
+
   }
 
   #interests {
     justify-content: center;
     .size {
-      height: 800px;
+      //height: 800px;
     }
     #slides {
       height: 700px;
       width: 950px;
     }
+
   }
 
   #for_efect{

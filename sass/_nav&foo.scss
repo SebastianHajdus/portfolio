@@ -7,15 +7,16 @@
 }
 
 #menu_logo {
-  //background-image: url("../images/diamond_64.png");
+  background-image: url("../images/diamond_64.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: black;
   height: 50px;
   width: 50px;
-
+  text-decoration: none;
   //border: 1px solid white;
+  border: none; //wyłaczenie obramowania 
 
 }
 

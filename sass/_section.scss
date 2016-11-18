@@ -28,7 +28,6 @@
 // --- skills --- //
 
 
-
 #about_skills {
   .s-1 {
       background-image: url("../images/skills/HTML.png");
@@ -89,7 +88,13 @@
   }
 }
 
-
+#profile_about {
+  background-image: url("../images/diamonds/flawless_diamond.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  //align-items: stretch;
+}
 
 
 /* --- interests --- */

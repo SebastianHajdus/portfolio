@@ -10,14 +10,17 @@ these make the slideshow work
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 .slide {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
-    height: 100%;
+    //width: 100%;
+    //height: 100%;
     opacity: 0;
     z-index: 1;
 
@@ -30,6 +33,7 @@ these make the slideshow work
 .showing {
     opacity: 1;
     z-index: 2;
+
 }
 
 
@@ -39,11 +43,13 @@ just for appearance; change whatever you want
 */
 
 .slide {
-    font-size: 40px;
+    //font-size: 40px;
     padding: 1px;
     box-sizing: border-box;
     background: #333;
     color: #fff;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -75,6 +81,8 @@ just for appearance; change whatever you want
     align-self: center;
     display: block;
     position: relative;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -96,8 +104,6 @@ just for appearance; change whatever you want
   background: #eee;
   color: #333;
 }
-
-
 
 
 .buttons{
