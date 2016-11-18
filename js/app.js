@@ -3,6 +3,7 @@ $(function () {
 console.log('dziala');
 
 // --- menu list --- //
+console.log('menu_list');
 
 $(document).ready(function(){
     $("#menu_logo").click(function(){
@@ -12,6 +13,8 @@ $(document).ready(function(){
 
 
 // --- slider --- //
+
+console.log('slider');
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;

@@ -48,20 +48,26 @@ just for appearance; change whatever you want
 }
 
 .slide:nth-of-type(1) {
-    background: red;
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snowy-winter-vignette-bokeh-night-snow-falling-free-stock-photo.jpg');
+    //background: red;
+    background-image: url("../images/diamonds/diamondsback.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .slide:nth-of-type(2) {
-    background: orange;
+    //background: orange;
+    background-image: url("../images/diamonds/Luxury-Diamonds.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 .slide:nth-of-type(3) {
-    background: green;
-}
-.slide:nth-of-type(4) {
-    background: blue;
+    //background: blue;
+    background-image: url("../images/diamonds/diamonds-various.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -69,6 +75,7 @@ just for appearance; change whatever you want
     align-self: center;
     display: block;
     position: relative;
+
 }
 
 

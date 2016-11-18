@@ -35,12 +35,16 @@ $desktop: "(min-width: 1024px)";
       margin: 2px;
     }
   }
-  #interests{
 
-    #slideshow {
-      display: none;
-    }
+  #interests{
+    display: none;
+    
   }
+
+  #for_efect{
+      display: none;
+  }
+
   #contact {
     flex-direction: column-reverse;
     justify-content: center;
@@ -82,13 +86,14 @@ $desktop: "(min-width: 1024px)";
     }
   }
   #interests{
-    .size {
-    }
+    display: none;
 
-    #slideshow {
-      display: none;
-    }
   }
+
+  #for_efect{
+      display: none;
+  }
+
   #contact {
     flex-direction: column-reverse;
     justify-content: center;
@@ -133,6 +138,14 @@ $desktop: "(min-width: 1024px)";
     }
 
   }
+
+  #for_efect{
+    .size {
+      height: 600px;
+    }
+  }
+
+
   #contact {
     .size {
       height: 400px;
@@ -173,6 +186,12 @@ $desktop: "(min-width: 1024px)";
     #slides {
       height: 700px;
       width: 950px;
+    }
+  }
+
+  #for_efect{
+    .size {
+      height: 800px;
     }
   }
 
