@@ -1,9 +1,11 @@
 /* --- intro --- */
 
-
+#intro {
+  background-color: black;
+}
 
 #half_circle_left {
-  background-color: #c06;
+  background-color: white;
   width: 75px;
   height: 150px;
   -moz-border-radius: 0 200px 200px 0;
@@ -13,7 +15,7 @@
 
 
 #half_circle_right {
-  background-color: #c06;
+  background-color: white;
   width: 75px;
   height: 150px;
   -moz-border-radius: 200px 0 0 200px;
