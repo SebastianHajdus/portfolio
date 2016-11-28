@@ -14,20 +14,6 @@ $(document).ready(function(){
 */
 
 // --- dropdownmenu --- //
-/*
-var div = document.querySelector('#menu_logo');
-    console.log(div);
-
-    div.addEventListener('click', function() {
-        var list = document.querySelector('.menu-content');
-        if (list.style.display === 'none') {
-            list.style.display = 'block';
-        } else {
-            list.style.display = 'none';
-        }
-    });
-*/
-// --- test menu! --- //
 
 var div = document.querySelector('#menu_logo');
     console.log(div);
@@ -40,5 +26,6 @@ var div = document.querySelector('#menu_logo');
             list.style.display = 'none';
         }
     });
+
 
 });
