@@ -1,12 +1,11 @@
-@import 'reset';
-@import 'container';
+@import 'modules/reset';
+@import 'modules/container';
 
-@import 'grid6';
-@import 'mediaQuery';
-@import 'animation';
-@import 'parallax';
+@import 'modules/grid6';
+@import 'modules/mediaQuery';
+//@import 'effects/animation';
+//@import 'effects/parallax';
 
-@import 'body';
-@import 'section';
-@import 'nav&foo';
-@import 'slideshow';
+@import 'partials/body';
+@import 'partials/section';
+@import 'partials/nav&foo';

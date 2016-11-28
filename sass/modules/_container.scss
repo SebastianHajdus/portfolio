@@ -1,0 +1,33 @@
+.grid-container {
+    width : 100%;
+    //max-width : 1200px;
+
+}
+
+.row:before, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --- nav --- */
+
+#container_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container_half_left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#container_half_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
