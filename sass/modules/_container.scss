@@ -40,3 +40,23 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+
+/* --- about --- */
+
+.container_about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    //align-items: stretch;
+}
+
+/* --- skill --- */
+
+.container_skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}

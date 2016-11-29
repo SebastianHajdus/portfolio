@@ -1,6 +1,20 @@
-.parallax {
+.parallax1 {
     /* The image used */
-    background-image: url("../images/.jpg");
+    background-image: url("../images/trojkatblok.jpg");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/trojkatblok.jpg");
 
     /* Full height */
     height: 100%;
