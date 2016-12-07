@@ -14,7 +14,7 @@
 
 #container_nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
@@ -59,4 +59,27 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.container_up {
+    justify-content: flex-end;
+}
+
+/* --- work --- */
+
+.container_work {
+    justify-content: center;
+    div {
+      align-self: center;
+    }
+}
+
+
+/* --- contact --- */
+
+.container_contact {
+    justify-content: center;
+    div {
+      align-self: center;
+    }
 }

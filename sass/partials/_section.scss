@@ -62,9 +62,7 @@
 
 
 /* --- skill --- */
-.container_up {
-  justify-content: flex-end;
-}
+
 #triangle_up {
 
   align-self: flex-end;
@@ -147,4 +145,40 @@
     background-position: center;
 }
 
+}
+
+
+/* --- work --- */
+
+#first_project {
+    height: 50px;
+    width: 50px;
+    background: blue;
+}
+
+#second_project {
+    height: 50px;
+    width: 50px;
+    background: green;
+}
+
+#work {
+  background: black;
+
+  .container_work {
+    height: 300px;
+  }
+
+}
+
+
+/* --- contact --- */
+
+#contact {
+    background: black;
+    color: white;
+
+    .container_contact{
+      height: 300px;
+    }
 }

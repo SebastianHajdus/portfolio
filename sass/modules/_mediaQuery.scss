@@ -21,17 +21,19 @@ $desktop: "(min-width: 1024px)";
       display: none;
     }
     .menu-content{ //test menu
-      height: 300px;
-      width: 150px;
+      height: 100%;
+      width: 100%;
       position: fixed;
       z-index: 1;
       top: 0;
       left: 0;
       background-color: black;
+      opacity: 0.9;
       overflow-x: hidden;
       padding-top: 60px;
       transition: 0.5s;
-      //text-align: center;
+      text-align: center;
+
       a {
         padding: 8px 8px 8px 32px;
         //text-decoration: none;
@@ -45,8 +47,6 @@ $desktop: "(min-width: 1024px)";
      }
 
     }
-
-
 
   }
 
@@ -83,7 +83,7 @@ $desktop: "(min-width: 1024px)";
 
 
   #about {
-    //height: 900px;
+
     .size {
         height: 300px;
     }
@@ -117,6 +117,14 @@ $desktop: "(min-width: 1024px)";
 
 
 }
+
+
+#work {
+
+}
+
+
+
 
 
 }
@@ -153,11 +161,11 @@ $desktop: "(min-width: 1024px)";
 
     #about {
       .size {
-          //height: 300px;
+          height: 300px;
       }
 
       #triangle_down {
-          height: 300px;
+          //height: 300px;
       }
       #profile {
           height: 300px;
@@ -170,6 +178,20 @@ $desktop: "(min-width: 1024px)";
           height: 300px;
           width: 50%;
       }
+    }
+
+    #skill {
+      .size {
+          height: 300px;
+      }
+      .skills {
+        div{
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+
     }
 
 }
@@ -205,11 +227,11 @@ $desktop: "(min-width: 1024px)";
 
     #about {
       .size {
-          //height: 300px;
+          height: 300px;
       }
 
       #triangle_down {
-          height: 300px;
+          //height: 300px;
       }
       #profile {
           height: 600px;
@@ -223,6 +245,19 @@ $desktop: "(min-width: 1024px)";
 
       }
 
+    }
+
+    #skill {
+      .size {
+          height: 300px;
+      }
+      .skills {
+        height: 400px;
+        div{
+          width: 150px;
+          height: 150px;
+        }
+      }
 
     }
 
@@ -259,11 +294,11 @@ $desktop: "(min-width: 1024px)";
 
     #about {
       .size {
-          //height: 300px;
+          height: 300px;
       }
 
       #triangle_down {
-          height: 300px;
+          //height: 300px;
       }
       #profile {
           height: 600px;
@@ -275,6 +310,20 @@ $desktop: "(min-width: 1024px)";
       #story {
           height: 600px;
       }
+    }
+
+    #skill {
+      .size {
+          height: 300px;
+      }
+      .skills {
+        height: 400px;
+        div{
+          width: 130px;
+          height: 130px;
+        }
+      }
+
     }
 
 }
