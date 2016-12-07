@@ -26,17 +26,22 @@ console.log('dziala');
 //wlaczanie guzikiem, pozadane zeby na starcie wlaczal gdy jest wylaczony, a wylaczal gdy jet wlaczony
 
         button.addEventListener('click', function() { //na guzik nadaje klikanie
-            if (list.style.display = 'block') {
 
+            var parent = this.childNode;
+            console.log(parent);
+
+            if (list.style.display == 'none') {
+                list.style.display = 'block';
             } else {
-              list.style.display = 'none';
+                list.style.display = 'none';
             }
 
 
 
         });
 
-
+        // //div o id menu jest rodzicem
+        //parent.style.display = 'block';
 
 
 });
