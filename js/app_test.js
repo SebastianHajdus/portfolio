@@ -29,13 +29,21 @@ console.log('dziala');
 
             var parent = this.childNode;
             console.log(parent);
-
+/*
             if (list.style.display == 'none') {
                 list.style.display = 'block';
             } else {
                 list.style.display = 'none';
             }
+*/
 
+        if (list.style.display == 'none') {
+            list.style.display = 'block';
+        } else if (list.style.display = 'block') {
+            list.style.display = 'none';
+        } else {
+            list.style.display = 'none';
+        }
 
 
         });
