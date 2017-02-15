@@ -1,1 +1,20 @@
-$extra_small: "(max-width: 479px)";
+$extra-small: "(max-width: 479px)";
+
+@media #{$extra-small} {
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .my-name {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  
+
+}
+
+// [class*='col-']{
+//   width:100%;
+// }
