@@ -4,18 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100
 }
 
 #paragraph-my-name {
   font-size: 24px;
-}
-
-#image-cut-off-face {
-  //background-image: url('../images/face/foto-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 
 #user {
@@ -34,7 +26,6 @@
   background-image: url('../images/icons/computer.png');
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 #contact {
@@ -48,14 +39,61 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  div {
+  cursor: pointer;
+  button {
     width: 30px;
     height: 30px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
   }
+}
 
+#cut-face {
+  //background-image: url('../images/face/foto-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: green;
+  height: 100%;
+}
+
+.my-name-icon {
+  height: 50%;
+}
+
+.my-name {
+  height: 30vh;
 }
 
 //my-story
+
+.my-face {
+  //height: 30vh;
+}
+
+.face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#face-1 {
+  width: 200px;
+  height: 150px;
+  background: blue;
+}
+
+#face-2 {
+  width: 200px;
+  height: 150px;
+  background: yellow;
+}
+
+#face-3 {
+  width: 200px;
+  height: 150px;
+  background: red;
+}
 
 //skills
 

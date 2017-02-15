@@ -1,1 +1,10 @@
 $medium: "(min-width: 768px) and (max-width: 1023px)";
+
+@media #{$medium} {
+
+  //my-story
+  .my-face {
+    height: 40vh;    
+  }
+
+}

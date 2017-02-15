@@ -1,1 +1,11 @@
 $small: "(min-width: 480px) and (max-width: 767px)";
+
+@media #{$small} {
+
+  //my-story
+  .my-face {
+    height: 35vh;    
+  }
+
+
+}

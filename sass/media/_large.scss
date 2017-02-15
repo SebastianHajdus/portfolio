@@ -1,1 +1,10 @@
 $large: "(min-width: 1024px)";
+
+@media #{$large} {
+
+  //my-story
+  .my-face {
+    height: 55vh;    
+  }
+
+}

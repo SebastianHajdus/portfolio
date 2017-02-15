@@ -9,9 +9,20 @@ $extra-small: "(max-width: 479px)";
   .my-name {
     flex-direction: column-reverse;
     display: flex;
+    height: 55vh;
   }
 
-  
+//my-story
+
+  .my-face {
+    .col-4{
+      width: 100%;
+    }
+    height: 50vh;
+  }
+
+
+
 
 }
 
